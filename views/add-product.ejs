@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Add Product</title>
+ <link rel="stylesheet"
+href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+<body class="container" style="margin-top: 50px;">
+
+ <h1><%= t('addaproduct') %></h1>
+ <p><a href="/manage-products" class="btn btn-primary"><%= t('manageProducts') %></a></p>
+ <p><a href="/logout" class="btn btn-danger"><%= t('logout') %></a></p>
+ <form action="/add-product" method="post">
+ <div class="form-group">
+ <label for="name"><%= t('name') %>:</label>
+ <input type="text" id="name" name="name" class="form-control" required>
+ </div>
+ <div class="form-group">
+ <label for="price"><%= t('price') %>:</label>
+ <input type="text" id="price" name="price" class="form-control" required>
+ </div>
+ <div class="form-group">
+ <label for="description"><%= t('description') %>:</label>
+ <textarea id="description" name="description" class="form-control"></textarea>
+ </div>
+ <button type="submit" class="btn btn-success"><%= t('addaproduct') %></button>
+ </form>
+
+ <a href="/change-lang/en" class="btn btn-link">English</a>
+ <a href="/change-lang/ro" class="btn btn-link">Romana</a>
+
+</body>
+</html>

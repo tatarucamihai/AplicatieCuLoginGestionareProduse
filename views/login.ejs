@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><title>Login</title></title>
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+<body class="container" style="margin-top: 50px;">
+
+
+
+
+<h1>  <%=t('loginTitle') %></h1>
+    <form action="/login" method="post">
+        <label for="username"><%= t('username') %>:</label>
+        <input type="text" id="username" name="username" required>
+        <br>
+        <label for="password"><%= t('password') %>:</label>
+        <input type="password" id="password" name="password" required>
+        <br>
+
+        <button type="submit"><%= t('loginButton') %></button>
+    </form>
+    <p><%= t('noAccount') %> <a href="/register"><%= t('registerHere') %></a>.</p>
+
+
+    <a href="/change-lang/en" class="btn btn-link">English</a>
+    <a href="/change-lang/ro" class="btn btn-link">Romana</a>
+
+</body>
+</html>

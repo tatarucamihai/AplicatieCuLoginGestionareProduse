@@ -1,0 +1,27 @@
+{
+  "manageProducts": "Gestionați Produsele",
+  "edit": "Editați",
+  "delete": "Ștergeți",
+  "Products": "Produse",
+  "addaproduct": "Adauga un produs",
+  "loginTitle": "Autentificare",
+  "username": "Nume utilizator",
+  "password": "Parolă",
+  "login" :"Logheaza-te!",
+  "register": "Inregistreaza-te",
+  "loginButton": "Logheaza-te",
+  "noAccount": "Nu ai cont?",
+  "registerHere": "Inregistreaza-te aici!",
+  "home": "Acasa",
+  "logout": "Delogheaza-te",
+  "welcome": "Bine ai venit!",
+  "price": "Pret",
+  "name": "Nume",
+  "description": "Descriere",
+  "deleteProduct": "Sterge produs",
+  "cancel": "Renunta",
+  "Areyousureyouwanttodeletetheproduct": "Esti sigur ca vrei sa stergi acest produs",
+  "editProduct": "Editeaza produs",
+  "saveChanges": "Salveaza schimbarile"
+
+}

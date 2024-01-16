@@ -1,0 +1,27 @@
+{
+  "manageProducts": "Manage Products",
+  "edit": "Edit",
+  "delete": "Delete",
+  "Prducts": "Products",
+  "loginTitle": "Login",
+  "login" :"Login",
+  "addaproduct": "Add a Product",
+  "username": "Username",
+  "password": "Password",
+  "loginButton": "Login",
+  "noAccount": "Don't have an account?",
+  "registerHere": "Register here",
+  "home": "Home",
+  "logout": "Log out",
+  "register": "Register",
+  "welcome": "Welcome!",
+  "price": "Price",
+  "name": "Name",
+  "description": "Description",
+  "deleteProduct": "Delete Product",
+  "cancel": "Cancel",
+  "Areyousureyouwanttodeletetheproduct" : "Are you sure you want to delete the product?",
+  "editProduct": "Edit Product",
+  "saveChanges": "Save changes"
+
+}
